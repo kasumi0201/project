@@ -1,0 +1,195 @@
+/*font*/
+/*font-family: 'Noteworthy',sans-serif;*/
+/*font-family: 'Noteworthy','Menlo',sans-serif;*/
+
+/*color*/
+/*gray #B3B0AA*/
+/*pink #E2D2C8*/
+/*dark pink #DDA9B2*/
+
+/*==============================================================*/
+
+/*---ここから menu bar---*/
+.menu {
+  width:100%;/* 横の長さ */
+  padding:0;
+  margin:0;
+  list-style-type: none;/* 点なし */
+  position:fixed;
+  top:0;
+  left:0;
+  z-index: 10000;
+}
+.menu li {
+  width:14.28%;
+  float:left;/* 左寄せ */
+  padding:0;
+  margin:0;
+  text-align:center;/* 字は中央に */
+}
+.menu li a {
+  width:auto;
+  color:#fff;/* 字の色 */
+  font-size:20px;/* 字の大きさ */
+  padding:10px 0;
+  text-decoration:none;/* アンダーラインなし */
+  display:block;/* 横並び */
+  background:rgba(241, 101, 101, 0.7); /* ピンク */
+  font-family: 'Noteworthy',sans-serif;
+}
+
+.menu li a:hover {
+  background:#B3B0AA;
+}
+/*---ここまで menu bar---*/
+
+/*---ここから h1---*/
+
+.head1{
+margin: 100px;
+font-size: 140px;
+font-weight: 400;
+font-family: 'Beauty Initials',sans-serif;;
+color:rgba(247, 100, 131, 0.6);
+}
+
+/*---ここから pictures---*/
+
+
+.img1{
+  text-align: center;
+  margin: 50px;
+  position: relative;
+  top:0;
+}
+
+.img1:hover {
+  -webkit-filter: blur(2px);
+}
+
+/*--NEW ARRIVALS--*/
+
+.ARRIVALS{
+  font-family:'Noteworthy',sans-serif;
+  color:#FFF;
+  padding:30px;
+  font-size: 40px;
+  margin-top: 100px;
+  height:60px;
+  background-image: -webkit-linear-gradient(top,rgba(241, 101, 101, 0.6),#fab1e7);
+}
+
+/*--ここまでNEW ARRIVALS--*/
+
+.img2{
+  text-align: center;
+  position: relative;
+  top:70px;
+  width:250px;
+  height:300px;
+  margin: 60px;
+  display:inline-block;
+}
+
+.img2:hover {
+  -webkit-filter: blur(2px);
+}
+
+.img3{
+  text-align: center;
+  position: relative;
+  top:70px;
+  width:250px;
+  height:300px;
+  margin: 60px;
+  display:inline-block;
+}
+
+.img3:hover {
+  -webkit-filter: blur(2px);
+}
+
+.img4{
+  margin: 100px;
+  float:left;
+}
+
+.forimg4{
+  margin: 0;
+  padding: 60px;
+  background: gray;
+  color:#FFF;
+  display: block;
+  float:right;
+  position: relative;
+  top:100px;
+  bottom:150px;
+  right: 90px;
+}
+.forimg4 p{
+  margin: auto;
+  font-size: 60px;
+}
+
+/*---ここまで画像---*/
+
+/*---フッター１---*/
+
+.footer_left{
+  color:#FFF;
+  width: 25%;
+  height:300px;
+  padding:100px 50px;
+  margin:200px 0 0 0;
+  bottom: 0;
+  left:0;
+  float:left;
+  font-size: 24px;
+  background: rgba(131, 129, 138, 0.26);
+  position:relative;
+}
+
+.footer_left p{
+  color:#FFF;
+  text-decoration: underline;
+  font-family: 'Courier New';
+}
+
+.footer_left .icon1{
+  width:30px;
+  height:30px;
+  padding: 10px 10px 10px 10px;
+}
+
+
+/*---フッター２---*/
+
+.footer_right{
+  width:60%;
+  height:300px;
+  padding:100px 50px;
+  margin:200px 0 0 0;
+  bottom:0;
+  right:0;
+  float:right;
+  background: rgba(197, 200, 188, 0.61);
+  list-style-type: none;
+  position:relative;
+}
+
+.footer_right li a{
+  text-decoration: none;
+  display: block;
+  margin: 30px;
+  background: rgba(241, 101, 101, 0.7);
+  background-image: -webkit-linear-gradient(top,rgba(230, 98, 98, 0.5),#fab1e7);
+  font-family: 'Courier New';
+  color: #FFF;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+}
+
+.footer_right li a:hover {
+  background: #ffdbf4;
+  background-image: -webkit-linear-gradient(top, #ffdbf4, #ffe0f9);
+}
